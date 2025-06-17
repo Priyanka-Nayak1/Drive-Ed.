@@ -10,6 +10,7 @@ import studentViewOrderRoutes from "./routes/student-routes/order-routes.js";
 import studentCoursesRoutes from "./routes/student-routes/student-courses-routes.js";
 import studentCourseProgressRoutes from "./routes/student-routes/course-progress-routes.js";
 import path from 'path';
+console.log("server running...");
 dotenv.config();
 
 const app = express();
